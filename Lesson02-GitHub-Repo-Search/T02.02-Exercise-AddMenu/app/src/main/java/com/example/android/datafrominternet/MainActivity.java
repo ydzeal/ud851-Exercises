@@ -68,6 +68,7 @@ public class MainActivity extends AppCompatActivity {
             Context context = MainActivity.this;
             String message = "Search clicked";
             Toast.makeText(context, message, Toast.LENGTH_LONG).show();
+            return true;
         }
         return super.onOptionsItemSelected(item);
     }
